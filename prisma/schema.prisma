@@ -72,3 +72,12 @@ model VerificationToken {
 
     @@unique([identifier, token])
 }
+
+model Event {
+  id          Int      @id @default(autoincrement())
+  eventName   String
+  eventPlace  String
+  meetingLink String
+  description String
+  createdAt   DateTime @default(now())
+}

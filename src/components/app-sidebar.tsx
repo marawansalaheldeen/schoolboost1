@@ -76,6 +76,7 @@ export function AppSidebar() {
 			<SidebarContent>
 				<SidebarGroup>
 					<SidebarGroupContent className="p-5">
+            
 						<Image src='/logo.png' width={400} height={100} alt="logo" className="px-2.5"/>
 					</SidebarGroupContent>
 					<SidebarGroupContent className="p-1">
